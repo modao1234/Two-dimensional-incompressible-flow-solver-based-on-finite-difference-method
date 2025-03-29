@@ -5,6 +5,9 @@ This is a two-dimensional incompressible flow solver based on the finite differe
 * Finite difference discretization
 * Pressure correction method (Poisson equation solves pressure)
 * Successive over-relaxation iteration (SOR)
+### Physical Model:
+There is a 10✖️10 square obstacle in the 200✖️400 pipe, and the fluid flows in from the right boundary.
+![alt text](streamline.png)
 
 ## Source code introduction:
 * ``` fluid_base.cpp ``` is the serial version as the baseline version
